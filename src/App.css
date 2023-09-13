@@ -1,0 +1,108 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  /* min-height: calc(100vh - 92px); */
+}
+.header {flex: 1;}
+/* .sidebar {background: #151419;} */
+/* .sidebar > .flex {height: calc(100vh - 92px);} */
+/* .sidebar {background: rgb(56 189 248);} */
+.content {flex: 1;}
+.MuiCardContent-root {padding: 10px !important;}
+.walletlist {max-height: 20rem;}
+
+hr {
+  border: solid 1px #ffffff;
+}
+
+.task-desc {
+  margin: 24px 0;
+  padding: 24px;
+  border:  dashed 2px #383838;
+  border-radius: 8px;
+}
+
+.dropbtn {
+  margin: 16px 0 4px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: block;
+  /* float: left; */
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  left:0;
+  background-color: transparent;
+  min-width: 270px;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+/* .dropdown:hover .dropbtn {background-color:#3e8e41;} */
+
+.gas {
+  padding: 2px 16px 2px 2px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.admin-wallet-address {
+  padding: 10px 20px;
+  color: #000000;
+  width: -webkit-fill-available;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.activity-table {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.activity-header {
+  background-color: #4451a9;
+  color: white;
+  line-height: 60px;
+  text-align: left;
+  font-size: 24px;
+  border: 1px white;
+  border-style: none none solid none;
+  padding-left: 13px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.main-theme-color {
+  background-color: #726ebb !important;
+}
+
+.dashboard-overview-highlight {
+  font-size: 18px !important;
+  font-weight: bold;
+}
